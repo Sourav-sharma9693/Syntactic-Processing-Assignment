@@ -1,5 +1,5 @@
 # Syntactic-Processing-Assignment
-Identifying_Entities_in_Healthcare_Data_Assignment_Submission (1)
+
 Let's consider a hypothetical example of a health tech company called 'BeHealthy'. Suppose 'BeHealthy' aims to connect the medical communities with millions of patients across the country.
 
 'BeHealthy' has a web platform that allows doctors to list their services and manage patient interactions and provides services for patients such as booking interactions with doctors and ordering medicines online. Here, doctors can easily organise appointments, track past medical records and provide e-prescriptions.
@@ -26,10 +26,10 @@ Link here:
 
 As you saw in the video given above, there are four datasets provided to you to process, which are as follows:
 
-train_sent
+**train_sent
 test_sent
 train_label
-test_label
+test_label**
 You have the train and the test datasets; the train dataset is used to train the CRF model, and the test dataset is used to evaluate the built model.
 
 First, you will understand the ' train_sent' and the ' test_sent' datasets. Let's take a look at the structure of these datasets using the image provided below.
@@ -68,11 +68,11 @@ Then, you need to perform the evaluation using a test data set.
 After that, you need to create a dictionary in which diseases are keys and treatments are values.
 There are eight major tasks that we need to perform to complete it. They are as follows:
 
-Data preprocessing
-Concept identification
-Defining the features for CRF
-Getting the features words and sentences
-Defining input and target variables
-Building the model
-Evaluating the model
-Identifying the diseases and predicted treatment using a custom NER
+1.Data preprocessing
+2. Concept identification
+3. Defining the features for CRF
+4. Getting the features words and sentences
+5. Defining input and target variables
+6. Building the model
+7. Evaluating the model
+8.Identifying the diseases and predicted treatment using a custom NER
