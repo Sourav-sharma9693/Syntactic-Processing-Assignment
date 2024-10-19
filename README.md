@@ -70,11 +70,11 @@ After that, you need to create a dictionary in which diseases are keys and treat
 There are eight major tasks that we need to perform to complete it. They are as follows:
 
 1.Data preprocessing**
-
 2. Concept identification**
 3. Defining the features for CRF**
 4. Getting the features words and sentences**
 5. Defining input and target variables**
 6. Building the model**
 7. Evaluating the model**
+
 8.Identifying the diseases and predicted treatment using a custom NER**
