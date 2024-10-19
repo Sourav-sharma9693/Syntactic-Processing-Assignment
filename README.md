@@ -30,6 +30,7 @@ As you saw in the video given above, there are four datasets provided to you to 
 test_sent
 train_label
 test_label**
+
 You have the train and the test datasets; the train dataset is used to train the CRF model, and the test dataset is used to evaluate the built model.
 
 First, you will understand the ' train_sent' and the ' test_sent' datasets. Let's take a look at the structure of these datasets using the image provided below.
